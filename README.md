@@ -1,11 +1,11 @@
-### Learning Notes
+# Learning Notes
 
-# What is React?
+## What is React?
 
 React is a JS tool for building frontend websites.
 It is part of bootstrap, which is a platform that provides website templates I believe.
 
-# Plan of action
+## Plan of action
 1. Create react app ✔️
 2. Delete parts not needed
 3. Collect assets from figma design and add to public/assets
@@ -18,11 +18,11 @@ It is part of bootstrap, which is a platform that provides website templates I b
 10. Complete site
 11. Deploy on GitHub pages
 
-# Questions to answer
+### Questions to answer
 1. What is a React component?
 2. How do functions work in React?
 
----------------------------------------
+# Running App Notes
 
 ### `npm start`
 
