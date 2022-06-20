@@ -7,20 +7,26 @@ It is part of bootstrap, which is a platform that provides website templates I b
 
 ## Plan of action
 1. Create react app ✔️
-2. Delete parts not needed
-3. Collect assets from figma design and add to public/assets
-4. Choose font from Google fonts and add to the index.html header
-5. Edit index.html to include website title, add font-family
-6. Create components folder: website components []
-7. Change App.js to jsx -> why do I do this? What is 'jsx'?
-8. Add scss files -> why do I do this? What is the difference between scss and css?
-9. Convert all Figma design pages to react app
-10. Complete site
-11. Deploy on GitHub pages
+2. Delete parts not needed ✔️
+3. Collect assets from figma design and add to public/assets ✔️
+4. Choose font from Google fonts and add to the index.html header ✔️
+5. Edit index.html to include website title, add font-family ✔️
+6. Change App.js to jsx -> why do I do this? What is 'jsx'? ✔️
+7. Install scss into package json ✔️
+8. Create components folder: website components []
+9. Add scss files -> why do I do this? What is the difference between scss and css?
+10. Convert all Figma design pages to react app
+11. Complete site
+12. Deploy on GitHub pages
+
 
 ### Questions to answer
 1. What is a React component?
 2. How do functions work in React?
+3. What is the difference between .js and .jsx extension?
+    - js is standard javascript, jsx is a html-like syntax that works well with react. Its more intuitive to create react components with it.
+4. What is the difference between .css and .scss?
+    - scss is like csss on steriods... css is a styling language whilst scss (syntactically awesome style sheet) contains advanced features such as variables.
 
 # Running App Notes
 
