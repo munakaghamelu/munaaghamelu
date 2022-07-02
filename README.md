@@ -13,8 +13,8 @@ It is part of bootstrap, which is a platform that provides website templates I b
 5. Edit index.html to include website title, add font-family ✔️
 6. Change App.js to jsx -> why do I do this? What is 'jsx'? ✔️
 7. Install scss into package json ✔️
-8. Create components folder: website components []
-9. Add scss files -> why do I do this? What is the difference between scss and css?
+8. Create components folder: website components ✔️
+9. Add scss files -> why do I do this? What is the difference between scss and css? ✔️
 10. Convert all Figma design pages to react app
 11. Complete site
 12. Deploy on GitHub pages
