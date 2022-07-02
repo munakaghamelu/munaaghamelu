@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: all 1s ease;
+    
+    .wrapper{
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            .logo{
+                width: 40px;
+                height: 100%;
+                display: block;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .right{
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 5px;
+                    border-radius: 50px 50px 50px 50px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+
+    &.active{
+        background-color: #7ED957;
+        color: #7ED957;
+
+        .hamburger{
+            span{
+                &:first-child {
+                    background-color: $mainColor;
+                    transform: rotateY(180deg);
+                }
+                &:nth-child(2) {
+                    background-color: $mainColor;
+                }
+                &:last-child{
+                    background-color: $mainColor;
+                    transform: rotateY(-180deg);
+                }
+            }
+        }
+    }
+
+}

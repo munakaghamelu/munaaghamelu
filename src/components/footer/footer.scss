@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    z-index: 3;
+    transition: all 1s ease;
+
+    .wrapper {
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .socials{
+            .youtube {
+                width: 33%;
+                height: 33px;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+            }
+            .github {
+                width: 33%;
+                height: 33px;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+            }
+            .linkedin {
+                width: 33%;
+                height: 33px;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
