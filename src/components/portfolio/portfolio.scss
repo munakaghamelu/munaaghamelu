@@ -1,1 +1,99 @@
 @import "../../global.scss";
+
+.portfolio{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left{
+            bottom: 60px;
+            left: 200px;
+            transform: rotateY(180deg);
+        }
+
+        &.right{
+            bottom: 60px;
+            right: 200px;
+        }
+    }
+
+    .slider{
+        height: 400px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+
+        .container{
+            width: 100vw;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include mobile{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header {
+                flex: 1;
+
+                h2 {
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @include mobile{
+                      font-size: 13px;
+                    }
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .collage{
+                flex: 4;
+                padding-right: 10px;
+
+                background-color: $mainColor;
+                display: flex;
+                height: 100%;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                    width: 80%;
+                    height: 150px;
+                    margin: 15px 0;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
