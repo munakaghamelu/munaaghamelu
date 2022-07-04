@@ -16,11 +16,11 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
-        {/* <Landing/>
-        <About/>
+        { <Landing/>}
+         {/* { <About/>
         <Skills/>
         <Portfolio/>
-        <Contact/> */}
+        <Contact/> } */}
       </div>
       <Footer/>
     </div>
