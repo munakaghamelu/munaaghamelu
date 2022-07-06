@@ -10,19 +10,22 @@ export default function Portfolio(){
             id: "1",
             title: "Paggle",
             img: "assets/paggle_web.gif",
-            desc: "Insert info!"
+            desc: "View Code",
+            link: "https://github.com/munakaghamelu/paggle"
         },
         {
             id: "2",
             title: "bymunako",
             img: "assets/art_web.png",
-            desc: "Insert info!"
+            desc: "View Code",
+            link: "https://github.com/munakaghamelu/bymunako"
         },
         {
             id: "3",
             title: "Mafia Moves",
             img: "assets/mm_web.png",
-            desc: "Insert info"
+            desc: "View Code",
+            link: "https://github.com/munakaghamelu/running_website"
         },
     ];
 
@@ -43,7 +46,7 @@ export default function Portfolio(){
                 
                 <div className="header">
                     <h2>{d.title}</h2>
-                    <p>{d.desc}</p>
+                    <p><a href={d.link} target="_blank">{d.desc}</a></p>
                 </div>
 
                 <div className="collage">

@@ -14,6 +14,9 @@ export default function Footer() {
                     <a href="https://github.com/munakaghamelu" target="_blank" className="github">
                         <img src="assets/git_icon.png"/>
                     </a>
+                    <a href="https://www.instagram.com/bymuna.ko/" target="_blank" className="insta">
+                        <img src="assets/insta_icon.png"/>
+                    </a>
                 </div>
             </div>
         </div>
