@@ -1,1 +1,17 @@
 @import "../../global.scss";
+
+.about {
+    background-color: white;
+    background-image: url("../../../public/assets/background.png");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    .body {
+        background-color: white;
+        width: 80%;
+        padding: 50px 50px;
+        margin: auto;
+        box-sizing: border-box;
+        border: 2.5px solid #000000;
+    }
+}
