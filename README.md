@@ -17,7 +17,7 @@ It is part of bootstrap, which is a platform that provides website templates I b
 9. Add scss files -> why do I do this? What is the difference between scss and css? ✔️
 10. Convert all Figma design pages to react app ✔️
 11. Complete site ✔️
-12. Deploy on GitHub pages [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f], key cmd ### `npm run build`
+12. Deploy on GitHub pages [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f], key cmd: `npm run build`
 
 
 ### Questions to answer
