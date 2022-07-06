@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/munaaghamelu/static/css/main.b5e8a690.css",
+    "main.js": "/munaaghamelu/static/js/main.fe17358b.js",
+    "static/media/background.png": "/munaaghamelu/static/media/background.8b077f63b215abbcf820.png",
+    "index.html": "/munaaghamelu/index.html",
+    "main.b5e8a690.css.map": "/munaaghamelu/static/css/main.b5e8a690.css.map",
+    "main.fe17358b.js.map": "/munaaghamelu/static/js/main.fe17358b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e8a690.css",
+    "static/js/main.fe17358b.js"
+  ]
+}
