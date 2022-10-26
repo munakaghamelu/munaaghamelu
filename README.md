@@ -18,6 +18,7 @@ It is part of bootstrap, which is a platform that provides website templates I b
 10. Convert all Figma design pages to react app ✔️
 11. Complete site ✔️
 12. Deploy on GitHub pages [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f], key cmd: `npm run deploy` ✔️
+13. Redo the skills page by creating a skills component that I can add multiple times to this page.
 
 
 ### Questions to answer
