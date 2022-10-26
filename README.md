@@ -22,7 +22,9 @@ It is part of bootstrap, which is a platform that provides website templates I b
 
 ### Questions to answer
 1. What is a React component?
+    - a component is a reusable part of a website, websites are technically just components. React allows us to manipulate a website with these repeatable components without having to refresh a webpage or go onto a different webpage.
 2. How do functions work in React?
+    - every component must return something, so components are made up of functions. We have functions that use () => symbols in react.
 3. What is the difference between .js and .jsx extension?
     - js is standard javascript, jsx is a html-like syntax that works well with react. Its more intuitive to create react components with it.
 4. What is the difference between .css and .scss?
